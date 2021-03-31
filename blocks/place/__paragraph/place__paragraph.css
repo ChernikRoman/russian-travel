@@ -1,0 +1,13 @@
+.place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+}
+
+.place:nth-child(odd) .place__paragraph:nth-child(2) {
+    margin-top: 27px;
+}
+
+.place:nth-child(even) .place__paragraph:nth-child(2) {
+    margin-top: 26px;
+}

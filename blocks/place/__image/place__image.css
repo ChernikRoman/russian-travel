@@ -1,0 +1,27 @@
+.place__image {
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    width: 440px;
+    height: 440px;
+}
+
+.place:nth-child(1) .place__image {
+    background-image: url(../../../images/place/place-kosa.jpg);
+}
+
+.place:nth-child(2) .place__image {
+    background-image: url(../../../images/place/place-kolsky.jpg);
+}
+
+.place:nth-child(3) .place__image {
+    background-image: url(../../../images/place/place-altai.jpg);
+}
+
+.place:nth-child(4) .place__image {
+    background-image: url(../../../images/place/place-winter-baikal.jpg);
+}
+
+.place:nth-child(5) .place__image {
+    background-image: url(../../../images/place/place-karelia.jpg);
+}

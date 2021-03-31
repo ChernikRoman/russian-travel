@@ -1,0 +1,7 @@
+.cover {
+    margin-top: 92px;;
+    width: 100%;
+    display: grid;
+    grid: 1fr / 1fr;
+    max-width: 1184px;
+}

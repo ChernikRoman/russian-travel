@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    position: relative;
+    margin: 92px auto 24px;
+    width: 100%;
+    max-width: 928px;
+}
