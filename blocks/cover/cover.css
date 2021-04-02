@@ -1,7 +1,14 @@
 .cover {
-    margin-top: 92px;;
     width: 100%;
     display: grid;
     grid: 1fr / 1fr;
     max-width: 1184px;
+    margin: 92px auto 0; 
+}
+
+
+@media (max-width: 768px) {
+    .cover {
+    margin-top: 90px;
+    }
 }

@@ -11,3 +11,9 @@
 .place:nth-child(even) .place__paragraph:nth-child(2) {
     margin-top: 26px;
 }
+
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}

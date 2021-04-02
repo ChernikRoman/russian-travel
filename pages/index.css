@@ -14,13 +14,11 @@
 
 @import url(../blocks/page/page.css);
 
-/*Импорт блока content*/
-
-@import url(../blocks/content/content.css);
-
 /*Импорт блока header*/
 
 @import url(../blocks/header/header.css);
+
+@import url(../blocks/header/__image/header__image.css);
 
 @import url(../blocks/header/__link-lang/header__lang-link.css);
 
@@ -41,6 +39,10 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 
 @import url(../blocks/lead/__title/lead__title.css);
+
+/*Импорт блока alihn-self*/
+
+@import url(../blocks/align-self/align-self.css);
 
 /*Импорт блока intro*/
 
@@ -102,7 +104,10 @@
 
 @import url(../blocks/footer/__link/footer__link.css);
 
+div, a, p, section, figure, img, article, h1, h2, h3 {
+    outline: 1px solid blue;
+}
 
 .link-hover:hover {
-  opacity: 0.8;
-}
+    opacity: 0.8;
+  }

@@ -1,5 +1,10 @@
 .intro {
-    max-width: 690px;
+    max-width: 720px;
     margin-top: 92px;
-    align-self: flex-start;
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        max-width: 690px;
+    }
 }

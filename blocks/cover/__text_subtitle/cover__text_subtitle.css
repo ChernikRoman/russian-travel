@@ -5,3 +5,10 @@
     font-size: 18px;
     line-height: 22px;
 }
+
+@media (max-width: 768px) {
+    .cover__text_subtitle {
+        font-size: 4.375vw;
+        line-height: 5vw;
+    }
+}
