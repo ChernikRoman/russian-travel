@@ -50,8 +50,6 @@
 
 @import url(../blocks/intro/__list/intro__list.css);
 
-@import url(../blocks/intro/__list/intro__list_no-bold.css);
-
 @import url(../blocks/intro/__text/intro__text.css);
 
 @import url(../blocks/intro/__title/intro__title.css);
