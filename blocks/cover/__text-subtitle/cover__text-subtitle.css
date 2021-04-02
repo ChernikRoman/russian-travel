@@ -1,4 +1,4 @@
-.cover__text_subtitle {
+.cover__text-subtitle {
     max-width: 360px;
     margin: 32px 0 0;
     text-align: center;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 768px) {
-    .cover__text_subtitle {
+    .cover__text-subtitle {
         font-size: 4.375vw;
         line-height: 5vw;
     }

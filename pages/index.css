@@ -92,9 +92,9 @@
 
 @import url(../blocks/cover/__text/cover__text.css);
 
-@import url(../blocks/cover/__text_subtitle/cover__text_subtitle.css);
+@import url(../blocks/cover/__text-subtitle/cover__text-subtitle.css);
 
-@import url(../blocks/cover/__text_title/cover__text_title.css);
+@import url(../blocks/cover/__text-title/cover__text-title.css);
 
 /*Импорт блока footer*/
 

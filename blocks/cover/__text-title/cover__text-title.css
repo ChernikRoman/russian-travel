@@ -1,4 +1,4 @@
-.cover__text_title {
+.cover__text-title {
     max-width: 560px;
     margin: 0;
     text-align: center;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 768px) {
-    .cover__text_title {
+    .cover__text-title {
         font-size: 10vw;
         line-height: 10.9375vw;
     }
