@@ -8,7 +8,15 @@
 
 @media (max-width: 768px) {
     .cover__text-subtitle {
-        font-size: 4.375vw;
-        line-height: 5vw;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 630px) {
+    .cover__text-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        width: 90vw;
     }
 }

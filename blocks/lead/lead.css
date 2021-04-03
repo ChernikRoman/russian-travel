@@ -7,9 +7,10 @@
     margin: 48px auto 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .lead {
         width: 90.625vw;
         max-width: 984px;
+        margin: 56px auto 0;
     }
 }

@@ -6,3 +6,9 @@
     font-weight: bold;
     list-style-type: none;
 }
+
+@media (max-width: 448px)  {
+    .intro__list {
+        margin-top: 34px;
+    }
+}

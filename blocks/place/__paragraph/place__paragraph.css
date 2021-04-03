@@ -4,16 +4,37 @@
     margin: 0;
 }
 
-.place:nth-child(odd) .place__paragraph:nth-child(2) {
-    margin-top: 27px;
-}
-
-.place:nth-child(even) .place__paragraph:nth-child(2) {
-    margin-top: 26px;
-}
+/*В разных контрольных точках разница в 1px, не знаю надо ли было вообще это делать или нет, но сделал*/
 
 @media (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
     }
 }
+
+@media (min-width: 1024px) {
+    .place__paragraph:nth-child(2) {
+        margin-top: 26px;
+    }
+    /*В задании в этом гриде отступ именно 27px, иначе я бы этим не занимался:)*/
+    .place:nth-child(3) .place__paragraph:nth-child(2) {
+        margin-top: 27px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 857px) {
+    .place:nth-child(odd) .place__paragraph:nth-child(2) {
+        margin-top: 27px;
+    }
+    
+    .place:nth-child(even) .place__paragraph:nth-child(2) {
+        margin-top: 26px;
+    }
+}
+
+@media (max-width: 857px) {
+    .place__paragraph:nth-child(2) {
+        margin-top: 25px;
+    }
+}
+

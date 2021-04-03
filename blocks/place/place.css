@@ -14,14 +14,13 @@
 @media (max-width: 768px) {
     .place {
         margin-top: 73px;
-        
     }
 }
 
 @media (max-width: 1024px) {
     .place {
         grid-template-columns: 440px 1fr;
-        column-gap: 32px;
+        column-gap: 28px;
     }
 }
 
@@ -36,5 +35,12 @@
     .place {
     grid-template-columns: 90vw;
     row-gap: 28px;
+    }
+}
+
+@media (max-width: 448px)  {
+    .place {
+        margin-top: 50px;
+        row-gap: 32px;
     }
 }

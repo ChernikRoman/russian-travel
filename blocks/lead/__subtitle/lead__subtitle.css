@@ -9,10 +9,9 @@
 
 @media (max-width: 1024px) {
     .lead__subtitle {
-        margin-bottom: 5.46875vw;
+        margin-bottom: 56px;
     }
 }
-
 
 @media (min-width: 1170px) {
     .lead__subtitle {
@@ -25,5 +24,12 @@
         width: 90vw;
         font-size: 5vw;
         line-height: 4.6875vw;
+    }
+}
+
+@media (max-width: 448px)  {
+    .lead__subtitle {
+        margin-top: 16px;
+        margin-bottom: 40px;
     }
 }
