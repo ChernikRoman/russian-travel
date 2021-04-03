@@ -36,6 +36,5 @@
     .place {
     grid-template-columns: 90vw;
     row-gap: 28px;
-
     }
 }

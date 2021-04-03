@@ -1,12 +1,12 @@
 .header__image {
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-right: auto;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .header__image {
-        width: 142px;
-        height: 42px;
+        width: 44.375vw;
+        max-width: 176px;
+        height: 13.125vw;
+        max-height: 52px;
     }
 }

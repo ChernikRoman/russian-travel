@@ -22,9 +22,9 @@
 
 @import url(../blocks/header/__link-lang/header__lang-link.css);
 
-@import url(../blocks/header/__link-lang/header__lang-link_ru.css);
+@import url(../blocks/header/__link-lang/__lang/header__lang-link__lang.css);
 
-@import url(../blocks/header/__link-lang/header__lang-link_en.css);
+@import url(../blocks/header/__link-lang/__lang/header__lang-link__lang_underline.css);
 
 @import url(../blocks/header/__link-lang/header__lang-link_underline.css);
 
@@ -34,15 +34,15 @@
 
 @import url(../blocks/lead/__image/lead__image.css);
 
-@import url(../blocks/lead/__image-description/__image-description.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 
 @import url(../blocks/lead/__title/lead__title.css);
 
-/*Импорт блока alihn-self*/
+/*Импорт блока align-intro*/
 
-@import url(../blocks/align-self/align-self.css);
+@import url(../blocks/align-intro/align-intro.css);
 
 /*Импорт блока intro*/
 
@@ -102,6 +102,10 @@
 
 @import url(../blocks/footer/__link/footer__link.css);
 
+div, a, p, h1, h2, section, input, label {
+  outline: 1px solid blue;
+}
+
 .link-hover:hover {
     opacity: 0.8;
-  }
+}

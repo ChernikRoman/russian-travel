@@ -1,4 +1,4 @@
-.align-self {
+.align-intro {
     display: flex;
     width: 90.625%;
     max-width: 984px;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1024px) {
-    .align-self {
+    .align-intro {
         width: 93.75%;
         max-width: 928px;
     }

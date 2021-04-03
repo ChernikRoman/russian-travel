@@ -5,16 +5,25 @@
     max-width: 1184px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .footer {
-        width: 93.75%;
-        max-width: 928px;
+        width: 90.625vw;
+        max-width: 1184px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) and (min-width: 768px) {
     .footer {
-    margin-top: 88px;
+        width: 90.625vw;
+        min-width: 720px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 670px) {
+    .footer {
+        width: 93.75vw;
+        min-width: 288px;
+        margin-top: 88px;
     }
 }
 
