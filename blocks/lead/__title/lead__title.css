@@ -39,20 +39,3 @@
         line-height: 44px;
     }
 }
-
-
-/*
-@media (max-width: 320px) {
-    .lead__title {
-        font-size: 40px;
-        line-height: 44px;
-    }
-}
-
-@media (max-width: 768px) {
-    .lead__title {
-        font-size: 44px;
-        font-size: 12.5vw;
-        line-height: 13vw;
-    }
-}
