@@ -102,10 +102,6 @@
 
 @import url(../blocks/footer/__link/footer__link.css);
 
-div, a, p, h1, h2, section, input, label {
-  outline: 1px solid blue;
-}
-
 .link-hover:hover {
     opacity: 0.8;
 }
