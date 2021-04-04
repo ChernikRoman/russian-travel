@@ -5,6 +5,13 @@
     line-height: 18px;
     font-weight: bold;
     list-style-type: none;
+    max-width: 690px;
+}
+
+@media (max-width: 850px) and (min-width: 630px) {
+    .intro__list {
+        max-width: 720px;
+    }
 }
 
 @media (max-width: 448px)  {

@@ -11,6 +11,12 @@
     margin-top: 0;
 }
 
+@media (min-width: 1280px) {
+    .place {
+        grid-template-columns: 460px 1fr;
+    }
+}
+
 @media (max-width: 1160px) and (min-width: 900px) {
     .place {
         grid-template-columns: 42.96875vw 1fr;

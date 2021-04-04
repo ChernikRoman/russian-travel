@@ -3,11 +3,12 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
+    max-width: 690px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) and (min-width: 630px) {
     .intro__title {
-        width: 90%;
+        max-width: 720px;
     }
 }
 

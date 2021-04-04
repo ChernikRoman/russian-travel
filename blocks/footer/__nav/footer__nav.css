@@ -1,0 +1,16 @@
+.footer__nav {
+    display: grid;
+    grid-auto-flow: row;
+    column-gap: 18px;
+    grid-template-columns: repeat(5, auto);
+}
+
+@media (max-width: 670px) {
+    .footer__nav {
+        grid-auto-flow: column;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: auto;
+        row-gap: 32px;
+        column-gap: 0;
+    }
+}
