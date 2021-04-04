@@ -2,8 +2,8 @@
     margin-right: 18px;
     font-size: 16px;
     line-height: 18px;
-    color: #fff;
     text-decoration: none;
+    color: #fff;
 }
 
 .footer__link:last-of-type {
@@ -12,9 +12,10 @@
 
 @media (max-width: 670px) {
     .footer__link {
+        display: block;
         font-size: 24px;
         line-height: 24px;
-        margin-top: 32px;
+        margin: 32px 0 0 0;
     }
 
     .footer__link:first-child {

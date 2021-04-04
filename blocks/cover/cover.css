@@ -1,19 +1,20 @@
 .cover {
     width: 100%;
-    display: grid;
-    grid: 1fr / 1fr;
     max-width: 1184px;
-    margin: 92px auto 0; 
+    height: 62.5vw;
+    max-height: 740px;
+    margin: 92px auto 0;
+    background-image: url(../../images/cover/cover-trains.jpg);
+    background-size: contain;
 }
-
 
 @media (max-width: 768px) {
     .cover {
-    margin-top: 90px;
+        margin-top: 90px;
     }
 }
 
-@media (max-width: 448px)  {
+@media (max-width: 448px) {
     .cover {
         margin-top: 66px;
     }

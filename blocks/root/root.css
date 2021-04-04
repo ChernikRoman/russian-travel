@@ -1,5 +1,10 @@
-.main-class {
+.root {
     color: #fff;
     background-color: #2A2C2F;
     font-family: "inter", sans-serif;
+}
+
+
+.link-hover:hover {
+    opacity: 0.8;
 }

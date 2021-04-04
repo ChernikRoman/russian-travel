@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    grid-column: 1;
-    grid-row: 1 / 2;
-    z-index: 1;
+    background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__text:hover {
+    background-color: rgba(42, 44, 47, 0.8);
 }

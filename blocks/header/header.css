@@ -1,18 +1,12 @@
 .header {
     display: flex;
-    margin-top: 28px;
-}
-
-@media (min-width: 1024px) {
-    .header {
-        width: 90.625vw;
-        max-width: 1184px;
-    }
+    margin: 28px auto 0;
+    width: 90.625vw;
+    max-width: 1184px;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
     .header {
-        width: 90.625vw;
         min-width: 720px;
     }
 }
