@@ -8,7 +8,7 @@
 
 @media (min-width: 850px) and (max-width: 1160px) {
     .intro {
-        width: 90.625vw
+        width: 90.625vw;
     }
 }
 

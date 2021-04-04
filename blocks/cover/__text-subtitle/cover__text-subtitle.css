@@ -1,15 +1,15 @@
-.cover__text-subtitle { 
-    max-width: 360px; 
-    margin: 32px 0 0; 
-    text-align: center; 
-    font-size: 18px; 
-    line-height: 22px; 
-} 
- 
-@media (max-width: 630px) { 
-    .cover__text-subtitle { 
-        font-size: 14px; 
-        line-height: 16px; 
-        width: 90vw; 
-    } 
-} 
+.cover__text-subtitle {
+    max-width: 360px;
+    margin: 32px 0 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media (max-width: 630px) {
+    .cover__text-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        width: 90vw;
+    }
+}
