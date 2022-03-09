@@ -1,5 +1,5 @@
 # Путешествие по России
-https://roman017.github.io/russian-travel/
+[GiHub Pages](https://roman017.github.io/russian-travel/)
 
 ### Обзор
 Практическая работа для Яндекс Практикум.
@@ -10,7 +10,7 @@ https://roman017.github.io/russian-travel/
 
 ------------
 **Методы**
-Исходные данные были взяты из макета figma (https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0).
+Исходные данные были взяты из макета [figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0).
 Адаптивность сайта достигаласть иструментами flex-box, grid-layout, относительные величины.
 
 ------------
